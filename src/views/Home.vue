@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El liderazgo trasciende posiciones jerárquicas, siendo la capacidad de influir, inspirar y motivar. Incluye características como comunicación asertiva, empatía, toma de decisiones y adaptabilidad, esenciales para guiar equipos y fomentar un ambiente colaborativo. La comunicación, tanto verbal como no verbal, fortalece relaciones y promueve la claridad en objetivos. Un clima empresarial positivo impulsa el potencial humano, mejorando la motivación y el desempeño. Integrando liderazgo, comunicación y clima organizacional, se asegura el éxito sostenible. 
+              p.descripcion.mb-4 Las habilidades sociales, la inteligencia competitiva, la resolución de problemas y el trabajo en equipo son esenciales en el ámbito laboral. Estas competencias permiten liderar de manera efectiva, fomentar la colaboración y enfrentar desafíos con creatividad y pensamiento crítico. Las organizaciones valoran cada vez más las competencias blandas como la comunicación, empatía y liderazgo, integrándolas con el desarrollo técnico. Asimismo, la inteligencia competitiva permite tomar decisiones estratégicas basadas en análisis de mercado y entorno. Estas habilidades promueven un entorno laboral productivo, adaptable y enfocado en el aprendizaje y la mejora continua.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

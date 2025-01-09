@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Habilidades, competencias y actitudes',
+    numeroUnidad: '2',
+    tituloUnidad: 'Gestionando el desarrollo del potencial humano',
   },
   menuPrincipal: {
     menu: [
@@ -31,29 +31,23 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Liderazgo: conceptualización, características y modelos empresariales de liderazgo',
+        titulo: 'Las habilidades sociales e Inteligencia competitiva',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Características del liderazgo',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Modelos empresariales de liderazgo',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'La comunicación como fundamento del éxito empresarial',
+        titulo: 'Solución de problemas en el ámbito laboral',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Trabajo en equipo',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -95,118 +89,133 @@ export default {
   referencias: [
     {
       referencia:
-        'Adame, R. (2017). La invención del futuro: el desafío del liderazgo. Bubok Publishing S.L.',
+        'Aguado, D. y Arranz, V. (2014). Habilidades para el trabajo en equipo: programa de entrenamiento. Editorial Universidad Autónoma de Madrid.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/53968?page=17',
+    },
+    {
+      referencia:
+        'Borrego Polo, V. (2016). Manual Entrenamiento en Habilidades Sociales. Formación para el Empleo. Editorial CEP, S.L.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/50971',
+    },
+    {
+      referencia:
+        'Córdoba Bueno, M. (2004). Metodología para la toma de decisiones. Delta Publicaciones.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/170114?page=',
+    },
+    {
+      referencia:
+        'Cruz Lablanca, I. D. L. (2014). Comunicación efectiva y trabajo en equipo. Ministerio de Educación y Formación Profesional de España.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/116513?page=44',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/49382?page=109',
     },
     {
       referencia:
-        'Bordas Martínez, M. J. (2016). Gestión estratégica del clima laboral. UNED - Universidad Nacional de Educación a Distancia.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48843',
-    },
-    {
-      referencia:
-        'Castro, A. D. (2014). Comunicación organizacional: técnicas y estrategias. Barranquilla, Colombia: Universidad del Norte.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69924?page=19',
-    },
-    {
-      referencia:
-        'Lazzati, S. C., & Tailhade, M. (2019). Liderazgo gerencial. Ediciones Granica.',
+        'Escales Sánchez, R. y Pujantell Obiols, M. (2024). Habilidades sociales (1 ed.). Macmillan Iberia, S.A.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/151212?page=34',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/267596?page=13',
     },
     {
       referencia:
-        'Mercader Juan, C., & Gairín Sallán, J. (2018). Liderazgo y gestión del talento en las organizaciones. LA LEY Soluciones Legales S.A.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/63188?page=9',
+        'García Vidal, G. (2012). El proceso de solución de problemas. B - EUMED.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/34498?page=4',
     },
     {
       referencia:
-        'Ramos Ramos, P. (Coord.). (2015). Dirección de equipos de trabajo: liderazgo y motivación (2.ª ed.). Editorial ICB.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/105616',
+        'Olaz Capitán, Á. (2016). Cómo trabajar en equipo a través de competencias. Narcea Ediciones.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/46262?page=22',
     },
     {
       referencia:
-        'Ruiz Speare, O. (2017). Liderazgo. Editorial Alfil, S. A. de C. V.',
+        'Pérez Rodríguez, M. D. (Coord.). (2015). Entrenamiento en habilidades sociales (2 ed.). Editorial ICB.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/117658?page=33',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/120574?page=17',
     },
     {
       referencia:
-        'Seisdedos, N. (2003). El clima laboral y su medida. Colegio Oficial de la Psicología de Madrid.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/21221?page=',
+        'Ramos Ramos, P. (Coord.). (2010). Afrontamiento del estrés y habilidades sociales (2 ed.). Editorial ICB.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106681',
     },
     {
       referencia:
-        'Ulrich, D., & Smallwood, N. (2008). Marca de liderazgo. Madrid: LID Editorial España.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/271460',
+        'Rosales Jiménez, J. J. (2013). Habilidades sociales. McGraw-Hill España.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/50255?page=33',
     },
     {
       referencia:
-        'Valencia Tovar, Á. (2015). El liderazgo, clave del éxito en la empresa. Colegio de Estudios Superiores de Administración - CESA.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/222463',
+        'Varios, A. (2013). Manual trabajo en equipo. Editorial CEP, S.L.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/50717?page=10',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Adaptabilidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Capacidad para ajustarse a nuevas condiciones o cambios en el entorno laboral o personal.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Colaboración',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso en el que dos o más personas trabajan juntas para lograr un objetivo común.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Competencias blandas',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Habilidades interpersonales que incluyen comunicación, empatía y trabajo en equipo, esenciales para un liderazgo efectivo.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Comunicación efectiva',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Transmisión clara y precisa de ideas, emociones o información, facilitando la comprensión entre las partes involucradas.',
     },
     {
-      termino: 'Moda',
+      termino: 'Empatía',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Habilidad de comprender y compartir los sentimientos o perspectivas de otra persona.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Inteligencia competitiva',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso de recopilación y análisis de información sobre competidores y el entorno para tomar decisiones estratégicas.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Inteligencia emocional',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Capacidad para gestionar las propias emociones y entender las de los demás, facilitando interacciones positivas.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Liderazgo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Habilidad para influir, motivar y guiar a un equipo hacia el logro de metas comunes.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Pensamiento crítico',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Proceso de análisis y evaluación de información para tomar decisiones fundamentadas y resolver problemas de manera efectiva.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Resolución de conflictos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Estrategias y habilidades utilizadas para manejar y resolver desacuerdos de manera constructiva.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Resiliencia',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Capacidad de recuperarse rápidamente de situaciones adversas y adaptarse a cambios o desafíos.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Toma de decisiones',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso de seleccionar entre diferentes alternativas para resolver un problema o alcanzar un objetivo.',
+    },
+    {
+      termino: 'Trabajo en equipo',
+      significado:
+        'Coordinación y cooperación entre personas para alcanzar un objetivo común, maximizando sus habilidades individuales.',
+    },
+    {
+      termino: 'Visión estratégica',
+      significado:
+        'Habilidad para prever y planificar a largo plazo, considerando oportunidades y amenazas en el entorno.',
     },
   ],
   complementario: [

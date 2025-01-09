@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 Esta unidad explora la importancia del liderazgo y la comunicación en el contexto empresarial, destacando cómo estos elementos son fundamentales para el éxito organizacional. Se abordarán conceptos clave relacionados con el liderazgo, así como la influencia del potencial humano y el clima empresarial en el desempeño de las organizaciones.
+    p.mb-4.mb-md-5 Esta unidad se centra en la gestión del desarrollo del potencial humano dentro de las organizaciones, subrayando la relevancia de las habilidades sociales y la inteligencia competitiva como elementos clave para el crecimiento y la eficacia organizativa. Se examinarán conceptos esenciales relacionados con la interacción humana en el entorno laboral, así como la importancia de la colaboración y la resolución de problemas en equipo.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

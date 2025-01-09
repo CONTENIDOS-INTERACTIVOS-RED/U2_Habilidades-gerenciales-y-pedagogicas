@@ -1,1 +1,1 @@
-module.exports = 'Unidad 1. Habilidades, competencias y actitudes'
+module.exports = 'Unidad 2. Gestionando el desarrollo del potencial humano'

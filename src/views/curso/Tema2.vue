@@ -96,7 +96,7 @@
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
-                img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Monitoreo y evaluación
               p Observar la implementación de la solución, realizar ajustes si es necesario y documentar las lecciones aprendidas para futuras mejoras.
@@ -105,7 +105,7 @@
     p.mb-4 Una gestión adecuada de problemas fomenta:
     .row.mb-4
       .col-12.col-md-10.mx-auto(data-aos="fade-up")
-        img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
         
     .row.mb-5
       .d-flex.align-items-center

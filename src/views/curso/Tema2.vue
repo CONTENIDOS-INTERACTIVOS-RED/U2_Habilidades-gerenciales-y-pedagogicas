@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. La comunicación como fundamento del éxito empresarial'")
+  BannerInterno(:subTitulo="'2. Solución de problemas en el ámbito laboral'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5.mx-0
